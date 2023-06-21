@@ -1,0 +1,175 @@
+﻿@*<!-- BEGIN JIVOSITE CODE {literal} -->
+    <script type='text/javascript'>
+        (function () {
+            var widget_id = 'qahJq1brz8';
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/' + widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);
+        })();</script>
+    <!-- {/literal} END JIVOSITE CODE -->*@
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+        m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(43999354, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        trackHash: true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43999354" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96239609-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-96239609-1');
+</script>
+
+
+@*<script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-96239609-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>*@
+<!-- Код тега ремаркетинга Google -->
+<!--------------------------------------------------
+С помощью тега ремаркетинга запрещается собирать информацию, по которой можно идентифицировать личность пользователя. Также запрещается размещать тег на страницах с контентом деликатного характера. Подробнее об этих требованиях и о настройке тега читайте на странице http://google.com/ads/remarketingsetup.
+--------------------------------------------------->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    //var google_conversion_id = 965806036;
+    //var google_custom_params = window.google_tag_params;
+    //var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965806036/?value=0&amp;guid=ON&amp;script=0" />
+    </div>
+</noscript>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1012050863/?value=0&amp;guid=ON&amp;script=0" />
+    </div>
+</noscript>
+@if (!Context.Request.Path.ToString().Contains("soiskatelyam"))
+{
+    <script>
+        (function (w, d, s, h, id) {
+            w.roistatProjectId = id; w.roistatHost = h;
+            var p = d.location.protocol == "https:" ? "https://" : "http://";
+            var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init";
+            var js = d.createElement(s); js.charset = "UTF-8"; js.async = 1; js.src = p + h + u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+        })(window, document, 'script', 'cloud.roistat.com', 'f5d1c02d238bf8189915b29e254fe812');
+    </script>
+}
+<!-- BEGIN WHATSAPP INTEGRATION WITH ROISTAT -->
+@*<script type="bogus" class="js-whatsapp-message-container">Это автоматическое уведомление. Обязательно отправьте данное сообщение и дождитесь ответа. id чата: {roistat_visit}</script>*@
+<script>
+    (function () {
+        if (window.roistat !== undefined) {
+            handler();
+        } else {
+            var pastCallback = typeof window.onRoistatAllModulesLoaded === "function" ? window.onRoistatAllModulesLoaded : null;
+            window.onRoistatAllModulesLoaded = function () {
+                if (pastCallback !== null) {
+                    pastCallback();
+                }
+                handler();
+            };
+        }
+
+        function handler() {
+            function init() {
+                appendMessageToLinks();
+
+                var delays = [1000, 5000, 15000];
+                setTimeout(function func(i) {
+                    if (i === undefined) {
+                        i = 0;
+                    }
+                    appendMessageToLinks();
+                    i++;
+                    if (typeof delays[i] !== 'undefined') {
+                        setTimeout(func, delays[i], i);
+                    }
+                }, delays[0]);
+            }
+
+            function replaceQueryParam(url, param, value) {
+                var explodedUrl = url.split('?');
+                var baseUrl = explodedUrl[0] || '';
+                var query = '?' + (explodedUrl[1] || '');
+                var regex = new RegExp("([?;&])" + param + "[^&;]*[;&]?");
+                var queryWithoutParameter = query.replace(regex, "$1").replace(/&$/, '');
+                return baseUrl + (queryWithoutParameter.length > 2 ? queryWithoutParameter + '&' : '?') + (value ? param + "=" + value : '');
+            }
+
+            function appendMessageToLinks() {
+                var message = document.querySelector('.js-whatsapp-message-container').text;
+                var text = message.replace(/{roistat_visit}/g, window.roistatGetCookie('roistat_visit'));
+                var linkElements = document.querySelectorAll('[href*="//wa.me"], [href*="//api.whatsapp.com/send"], [href*="//web.whatsapp.com/send"], [href^="whatsapp://send"]');
+                for (var elementKey in linkElements) {
+                    if (linkElements.hasOwnProperty(elementKey)) {
+                        var element = linkElements[elementKey];
+                        element.href = replaceQueryParam(element.href, 'text', text);
+                    }
+                }
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        };
+    })();
+</script>
+<!-- END WHATSAPP INTEGRATION WITH ROISTAT -->
+<script id="crm-wa-button-script" src="https://app.i2crm.ru/api_v1/js/crm_wa_button_v1.js" data-source="rs" data-text="Это автоматическое уведомление. Обязательно отправьте данное сообщение и дождитесь ответа. id чата: {u_code}"></script>
+
+
+@*<!-- LPTracker code start -->
+<script type="text/javascript">
+    (function () {
+        var projectId = 98008;
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://lpt-crm.online/lpt_widget/out/parser.min.js';
+        window.lptWg = window.lptWg || {};
+        window.lptWg.projectId = projectId;
+        window.lptWg.parser = true;
+        document.head.appendChild(script);
+    })()
+</script>
+<script type="text/javascript">
+    (function () {
+        var projectId = 98008;
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://lpt-crm.online/lpt_widget/kick-widget.js';
+        window.lptWg = window.lptWg || {};
+        window.lptWg.projectId = projectId;
+        window.lptWg.parser = true;
+        document.head.appendChild(script);
+    })()
+</script>
+<!-- LPTracker code End -->*@

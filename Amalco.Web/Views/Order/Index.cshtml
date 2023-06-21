@@ -1,0 +1,231 @@
+﻿@model PageViewModel
+@{
+    ViewData["Title"] = Model.PageTitle;
+    ViewData["Description"] = Model.MetaDescription;
+    List<ServiceAdminList> services = ViewBag.services;
+}
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10  offset-1 mt-5 mt-md-2">
+        <a href="/">Главная</a>/ Заказать домашний персонал
+
+    </div>
+</div>
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+        @Html.Raw(Model.Content)
+    </div>
+</div>
+<div class="row feedbacks mt-5 pb-5 w-100 mr-0 ml-0">
+    <h3 class="col-md-12 col-12 text-center  pt-5 mb-3 pb-3">Выберите домашний персонал</h3>
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+        <form method="post" asp-controller="Order" asp-action="Add" class="w-100" id="addorder" onsubmit="gtag('event', 'send', { 'event_category': 'form', 'event_label': 'recruitment' });">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-7 offset-md-1 col-md-10 text-center align-items-center">
+                    <select class="w-100 pl-2 mb-2  ml3rem form-control" name="ServiceId" required>
+                        <option value="">Выберите персонал</option>
+                        @foreach (var item in services)
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="offset-lg-2 col-lg-4 offset-md-1 col-md-5 col-12 text-center align-items-center">
+                    <input type="text" placeholder="Ваше имя" class="w-100 pl-2 mb-2  forbigml form-control" name="Name" required />
+                    <input type="text" placeholder="Ваш номер телефона" class="w-100 pl-2 mb-2 form-control forbigml phone-number" name="PhoneNumber" required />
+                    <input type="text" placeholder="Ваш Email" class="w-100 pl-2 mb-2 form-control forbigml" name="Email" required />
+                    <textarea rows="5" placeholder="Ваш комментарий" class="w-100 pl-2 mb-2 form-control forbigml" name="Comment"></textarea>
+                    <button class="w-100 pl-2 mb-2 inputradius btn btn-red text-white form-control forbigml" type="submit">Оформить заявку</button>
+                    @*<div class="form-check ml-5 ">
+                            <input type="checkbox" class="form-check-input" id="formsubbmting">
+                            <label class="form-check-label fontsize10" for="formsubbmting">Отправляя форму, вы принимаете условия </label>
+                        </div>
+                        <a href="#" class="ml-5 text-black fontsize10 ml-4 privacy">Политики конфиденциальности</a>*@
+                </div>
+                <div class="offset-lg-1 col-lg-3 offset-md-1 col-md-4 offset-2 col-9">
+                    <p class="mb-0">Занятость</p>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forPartial" name="Zanyatnost" value="Частичная">
+                        <label class="form-check-label fontsize10" for="forPartial">Частичная</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forfull" name="Zanyatnost" value="Полная">
+                        <label class="form-check-label fontsize10" for="forfull">Полная</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forwatch" name="Zanyatnost" value="Вахта">
+                        <label class="form-check-label fontsize10" for="forwatch">Вахта</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forAccommodation" name="Zanyatnost" value="С проживанием">
+                        <label class="form-check-label fontsize10" for="forAccommodation">С проживанием</label>
+                    </div>
+                    <p class="mt-5 mb-0">Место работы</p>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forMoscow" name="WorkPlace" value="Москва">
+                        <label class="form-check-label fontsize10" for="forMoscow">Москва</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forMoscowRegion" name="WorkPlace" value="Московская область">
+                        <label class="form-check-label fontsize10" for="forMoscowRegion">Московская область</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forOther" name="WorkPlace" value="Другое">
+                        <label class="form-check-label fontsize10" for="forOther">Другое</label>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 mb-3 mt-5">
+        <h3 class="col-md-12 col-12 text-center mb-5 text-blue">Процесс подбора персонала</h3>
+        <div class="row">
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/001-curriculum.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">1. Ваша заявка на подбор</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Оставить заявку возможно несколькими вариантами: позвонить нам по телефону, отправить заявку с сайта либо посетить офис.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/002-test.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">2. Ознакомление с нашими условиями</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">
+                        Вы знакомитесь с условиями сотрудничества с нами.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/talk.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">3. Выяснение потребностей</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">
+                        Наши менеджеры перед началом подбора, стараются максимально точно узнать ваши потребности, пожелания и замечания.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/003-job-search.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">4. Выбор среди кандидатов</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">
+                        В случаи если специалист нужного профиля есть в базе наших данных, поиск ведётся от одного до двух рабочих дней. В остальных ситуациях сроки выбора согласовываются с Вами.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/meeting.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">5. Собеседование с кандидатом</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">
+                        Мы отводим специальное помещение для Вас, где вы сможете осуществить собеседование с подобранным кандидатом.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/004-handshake.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">6. Заключение договора</p>
+                    <div class="col-12 text-center">
+                        <img src="~/images/Order/Icons/Фигура.png" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">
+                        После собеседования, если вы удовлетворены результатом, вы заключаете договор с агентством Амалко и можете пригласить служащего на испытательный срок.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <p class="text-justify col-12 fontsize14">
+                Перед тем как представить вам кандидатов, менеджеры кадрового агентства Амалко проводят грандиозные усилия по подбору подходящих служащих. Опираясь на ваши требования и потребности, учитывая характеристики и личные качества, они отбирают несколько кандидатов для дальнейшего собеседования.
+                <br />Наши менеджеры проводят многогранный анализ личности. Выработанные за годы функционирования специфические знания и навыки, помогают нам успешно реализовывать новейшие методы работы с персоналом.
+            </p>
+        </div>
+        <div class="row mt-5">
+            <h3 class="col-12 text-center mb-5 text-blue">Подбор кандидатов ведётся в несколько этапов</h3>
+        </div>
+        <div class="row ">
+            <ol class="progress-tracker text-center mb-0">
+                <li class="step">
+                    <span class="step-name fontsize14 smposition"></span>
+                    <p class="ml_60 smallscreenpadding ml-md-3">Ведётся анкетирование и тщательная проверка документаций.</p>
+                </li>
+                <li class="step">
+                    <span class="step-name fontsize14 smposition"></span>
+                    <p class="ml_60 smallscreenpadding ml-md-3">Наши менеджеры проводят интервью и различные тесты, тем самым определяя профпригодность.</p>
+                </li>
+                <li class="step">
+                    <span class="step-name fontsize14 smposition"></span>                 
+                    <p class="ml_60 smallscreenpadding ml-md-3">Кандидаты проводят беседы с независимыми психологами.</p>
+                </li>
+                <li class="step">
+                    <span class="step-name fontsize14 smposition"></span>
+                    <p class="ml_60 smallscreenpadding ml-md-3 ">Полная проверка рекомендаций от предыдущих работодателей.</p>
+                </li>
+                <li class="step">
+                    <span class="step-name fontsize14 smposition"></span>
+                    <p class="ml_60 smallscreenpadding ml-md-3">Регистрация в базе данных агентства Амалко.</p>
+                </li>
+            </ol>
+        </div>
+
+
+        @*<div class="row ">
+            <ol class="progress-tracker text-center mb-0">
+                <li class="step"><span class="step-name fontsize14"></span></li>
+                <li class="step"><span class="step-name fontsize14"></span></li>
+                <li class="step"><span class="step-name fontsize14"></span></li>
+                <li class="step"><span class="step-name fontsize14"></span></li>
+                <li class="step"><span class="step-name fontsize14"></span></li>
+            </ol>
+        </div>
+
+        <div class="row mt-0">
+            <p class="step text-center offset-1 col-2 fontsize14">Ведётся анкетирование и тщательная проверка документаций</p>
+            <p class="step text-center col-2 fontsize14">Наши менеджеры проводят интервью и различные тесты, тем самым определяя профпригодность.</p>
+            <p class="step text-center col-2 fontsize14">Кандидаты проводят беседы с независимыми психологами.</p>
+            <p class="step text-center col-2 fontsize14">Полная проверка рекомендаций от предыдущих работодателей.</p>
+            <p class="step text-center col-2 fontsize14">Регистрация в базе данных агентства Амалко.</p>
+        </div>*@
+
+        <p class="fontsize14 text-justify mt-3">
+            @Html.Raw(Model.Content2)
+        </p>
+
+    </div>
+</div>

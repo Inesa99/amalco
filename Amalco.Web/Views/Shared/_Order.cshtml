@@ -1,0 +1,32 @@
+﻿@{
+    IEnumerable<ServiceAdminList> services = ViewBag.services;
+}
+<div class="row pt-3 pb-3">
+    <form asp-controller="Order" asp-action="Add" class="addorder" onsubmit="gtag('event', 'send', { 'event_category': 'form', 'event_label': 'request' })">
+
+        <div class="ml1rem">
+            <input class="offset-lg-0 col-lg-3 col-md-10 offset-1 col-10 p-1 withradius m-3" placeholder="Ваше имя" name="Name" required>
+            <input class="offset-lg-0 col-lg-3 col-md-10 offset-1 col-10 p-1 withradius m-3" placeholder="Ваш телефон" name="PhoneNumber" required>
+            @*<input class="offset-lg-0 col-lg-3 col-md-10 offset-1 col-10 p-1 withradius m-3" placeholder="Ваш Email" name="Email" required>*@
+
+            <select class="offset-lg-0 col-lg-4 col-md-10 offset-1 col-10 mt-3 mb-3 ml-3 withradius bg-white p-1" name="ServiceId" required>
+                <option value="">Выберете персонал</option>
+                @foreach (var item in services)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            
+                <button class="offset-lg-4 col-lg-4 offset-md-0 col-md-10 ml15px offset-1 col-10 btn btn-red text-white mt-3  mb-3 sentorder p-1">Отправить заявку</button>
+
+             
+            @*<div class="form-check mt-2">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Отправляя форму, вы принимаете условия</label>
+                </div>
+                <a href="#" class="fontsize10 ml-4 col-12">Политики конфиденциальности</a>*@
+        </div>
+    </form>
+
+
+</div>

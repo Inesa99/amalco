@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ReviewVM>
+<div class="row feedbacks mt-5 pb-5 w-100 mr-0 ml-0">
+    <h3 class="col-md-12 col-12 text-center  pt-5 mb-3 pb-3">Отзывы наших клиентов</h3>
+    <div class="offset-md-2 col-md-8 offset-1 col-10">
+        <div class=" slider">
+            @foreach(var item in Model)
+            {
+            <div class="" style="width:300px;padding:0 10px;">
+                <img src="/images/Reviews/@item.Image" class="width100 pb-3" />
+                <p class="fontsize10 text-center pl-4 pr-4">@item.Content</p>
+                <hr />
+                <p class="fontsize10 text-center mb-0 ">@item.Name</p>
+                <p class="fontsize10 text-center">@item.Profession</p>
+            </div>
+            }
+            
+            
+            
+        </div>
+    </div>
+</div>

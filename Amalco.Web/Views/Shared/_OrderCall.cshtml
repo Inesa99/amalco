@@ -1,0 +1,22 @@
+﻿@model CallOderModel
+
+<h1>Получена новая заявка на обратный звонок</h1>
+
+<table border="1" style="width:100%;border-collapse:collapse">
+    <tr>
+        <td>Дата</td>
+        <td>@DateTime.UtcNow.AddHours(3)</td>
+    </tr>
+    <tr>
+        <td>Имя</td>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <td>Телефон</td>
+        <td>@Model.PhoneNumber</td>
+    </tr>
+    <tr>
+        <td>Комментарий</td>
+        <td>@Model.Comment</td>
+    </tr>
+</table>

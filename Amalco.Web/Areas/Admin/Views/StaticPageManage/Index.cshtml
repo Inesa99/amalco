@@ -1,0 +1,36 @@
+﻿@model IEnumerable<PageListAdminViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <h1 class="col-4">Странцы</h1>
+            @*<div class="col-8 text-right">
+                <a asp-action="AddEdit" class="btn btn-success"> + Добавить услугу</a>
+            </div>*@
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Страница</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Name</td>
+                    <td><a asp-action="Edit" asp-route-id="@item.Id">Редактировать</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

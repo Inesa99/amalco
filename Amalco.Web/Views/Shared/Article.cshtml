@@ -1,0 +1,106 @@
+﻿@model PageViewModel
+@{
+    ViewData["Title"] = Model.PageTitle;
+    ViewData["Description"] = Model.MetaDescription;
+}
+
+
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 offset-1  mt-5 mt-md-2">
+        <small class="mt-3"><a href="/">Главная </a>/ @Model.PageTitle</small>
+    </div>
+</div>
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+        @Html.Raw(Model.Content)
+       @if(Model.Id==8)
+       {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mt-3">
+                    <a href="/kak-vybrat-nyanyu">Помощь при выборе няни</a>
+                    <p class="text-justify">
+                        Ключевой вопрос при выборе – какая няня нужна ребёнку. От ответа на него зависит правильный выбор потенциальной работницы.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-domrabotnicu">Помощь при выборе домработницы</a>
+                    <p class="text-justify">
+                        Что бы правильно выбрать домработницу, необходимо понять какие работы она будет выполнять и с каким графиком.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-nyanyu-filippinku">Помощь при выборе няни филиппинки</a>
+                    <p class="text-justify">
+                        Филиппинская няня почтительно и уважительно относится к работодателю и к своим прямым обязанностям.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-guvernantku">Помощь при выборе гувернантки и гувернера</a>
+                    <p class="text-justify">
+                        Основная задача гувернантки – развитие ребёнка. А значит выбирать её необходимо исходя из этого. Возраст ребёнка его интересы
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-repetitora">Помощь при выборе репетитора</a>
+                    <p class="text-justify">
+                        Репетитор это педагог, а значит, для него важными качествами должны быть профессионализм, компетентность
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-gornichnuyu">Помощь при выборе горничной</a>
+                    <p class="text-justify">
+                        Если вы решитесь заняться поиском горничной самостоятельно, то рискуете наткнуться на недобросовестных работников.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mt-3">
+                    <a href="/kak-vybrat-sidelku">Помощь при выборе сиделки</a>
+                    <p class="text-justify">
+                        Ухаживать за тяжелобольным или престарелым сложно. Именно поэтому для оказания помощи родному лучше всего нанять профессионала.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-voditelya">Помощь при выборе водителя</a>
+                    <p class="text-justify">
+                        Водитель помимо своих основных обязанностей, обеспечивает безопасность своих пассажиров. Компания Амалко рекомендует
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-povara">Помощь при выборе семейного повара</a>
+                    <p class="text-justify">
+                        Для выбора хорошего повара нужно заранее продумать личные и профессиональные характеристики потенциального работника.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-semejnuyu-paru">Помощь при выборе семейной пары</a>
+                    <p class="text-justify">
+                        Обычно для ухода за загородным домом нанимают семейную пару, которая следит за порядком в доме и прилегающим участком.
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-uprovlyayushego">Помощь при выборе управляющего домом</a>
+                    <p class="text-justify">
+                        Помимо познаний в ведении различных хозяйственных и небольших строительно монтажных работ
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <a href="/kak-vybrat-sadovnika">Помощь при выборе садовника</a>
+                    <p class="text-justify">
+                        Помочь содержать сад в красивом виде Вам поможет профессиональный садовник. Хороший работник должен любить своё дело
+                    </p>
+                </div>
+            </div>
+        </div>
+       }
+        
+        @foreach(var item in Model.ChildPages)
+        {
+           <br /> <a href="/@Model.Url/@item.Url">@item.Title</a>
+        }
+    </div>
+</div>

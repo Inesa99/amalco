@@ -1,0 +1,70 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title></title>
+
+    <!-- Vendor styles -->
+    <link href="~/lib/material-design-iconic-font/dist/css/material-design-iconic-font.css" rel="stylesheet" />
+    <link href="~/css/material-admin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendors/animate.css/animate.min.css">
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+@*<body>
+    <h1>Մի գուցե լոգին լինեք՞</h1>
+    <form method="post" asp-controller="Login" asp-action="Index" asp-area="Admin" asp-antiforgery="true">
+        <input type="text" placeholder="Логин" name="mail" />
+        <input type="password" placeholder="Пароль" name="password" />
+        <input type="submit" value="Войти" />
+</form>
+</body>*@
+
+<body data-ma-theme="green">
+    <div class="login">
+        <div class="login__block active" id="l-login">
+            <div class="login__block__header">
+                <i class="zmdi zmdi-account-circle"></i>
+                Вход
+
+             
+            </div>
+            <form method="post" asp-controller="Login" asp-action="Index" asp-area="Admin" asp-antiforgery="true">
+
+            <div class="login__block__body">
+                <div class="form-group form-group--float form-group--centered">
+                    <input type="text" class="form-control" placeholder="Логин" name="mail">
+                    <label></label>
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group form-group--float form-group--centered">
+                    <input type="password" class="form-control" placeholder="Пароль" name="password">
+                    <label></label>
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <button type="submit" class="btn btn--icon login__block__btn"><i class="zmdi zmdi-long-arrow-right"></i></button>
+            </div>
+            </form>
+        </div>
+       
+
+</div>
+
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/popper.js/popper.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/app.min.js"></script>
+
+</body>
+</html>

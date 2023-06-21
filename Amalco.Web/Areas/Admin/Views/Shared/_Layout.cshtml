@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Amalco</title>
+
+    <environment include="Development">
+        <link href="~/lib/material-design-iconic-font/dist/css/material-design-iconic-font.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/lib/components-font-awesome/css/fontawesome.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="~/css/material-admin.css" rel="stylesheet" />
+        <link href="~/css/admin_site.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/lib/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" />
+        <link rel="stylesheet" href="~/lib/components-font-awesome/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="~/css/material-admin.css" rel="stylesheet" />
+        <link href="~/css/admin_site.css" rel="stylesheet" />
+    </environment>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="~/lib/dropzone/dist/dropzone.css" />
+    <link href="~/css/PagedList.css" rel="stylesheet" />
+
+    @RenderSection("css", required: false)
+</head>
+<body data-ma-theme="green">
+    <main class="main main--alt">
+
+        @await Html.PartialAsync("_Navigation")
+        @await Html.PartialAsync("_Menu")
+        <section class="content">
+            <div class="content__inner" id="wrapper">
+                @RenderBody()
+            </div>
+        </section>
+
+
+    </main>
+
+    <div id="dialogDiv" class="modal modal-primary fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div id="dialogContent" class="modal-dialog">
+        </div>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+        <script src="~/lib/popper.js/dist/popper.js"></script>
+
+        <script src="~/js/material-admin.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.1.1/bootstrap.min.js"></script>
+        <script src="~/js/modalform.js"></script>
+        <script src="~/js/admin.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+        <script src="~/lib/popper.js/dist/popper.js"></script>
+        
+        <script src="~/js/material-admin.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.1.1/bootstrap.min.js"></script>
+        <script src="~/js/modalform.js"></script>
+        <script src="~/js/admin.js"></script>
+    </environment>
+
+    <script src="~/js/tinymce/tinymce.min.js"></script>
+
+    <script src="~/js/tinysetup.js"></script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

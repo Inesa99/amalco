@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    @if (ViewData["Description"] != null)
+    {
+        <meta name="description" content="@ViewData["Description"]" />
+    }
+    <link rel="icon" href="http://amalco.ru/images/Main/favicon.ico" type="image/x-icon">
+    <environment include="Development">
+        <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/lib/material-design-iconic-font/dist/css/material-design-iconic-font.css" rel="stylesheet" />
+        <link href="~/css/slick.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="~/css/slick.css" rel="stylesheet" />
+        <link href="~/css/menu.css" rel="stylesheet" />
+        <link href="~/css/ladda.min.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link href="~/lib/material-design-iconic-font/dist/css/material-design-iconic-font.css" rel="stylesheet" />
+        <link href="~/css/slick.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="~/css/slick.css" rel="stylesheet" />
+        <link href="~/css/menu.css?v=7" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/ladda.min.css" rel="stylesheet" />
+    </environment>
+   <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1292531-f6qqs"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1292531-f6qqs" style="position:fixed; left:-999px;" alt=""/></noscript>
+   <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TL4PFX4');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL4PFX4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div id="left-flyout-nav" class="layout-left-flyout visible-sm"></div>
+
+    <header class="the-header forsmallscreenshow">
+        <div class="navbar container navbar-dark">
+            <div class="row ml_10 mt-3">
+                <div class="col-1">
+                    <a class="btn-navbar btn-navbar-navtoggle" href="#">
+                        <span class="icon-bar btn-flyout-trigger"></span>
+                        <span class="icon-bar btn-flyout-trigger"></span>
+                        <span class="icon-bar btn-flyout-trigger"></span>
+                    </a>
+                </div>
+                <div class="col-4 mt-1">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="ml-4">
+                        <img src="~/images/logo.png" class="w-100" />
+                    </a>
+                </div>
+              @*  <div class="col-6 mt-1">
+                    <a asp-controller="Order" asp-action="Call" class="w-100 btn btn-red text-white modalform ml-3 pl-0 pr-0">Заказать звонок</a>
+                </div>*@
+
+                <div class="col-12 w-100 text-center pl-0 pr-0 mt-3">
+                    <p class="text-white">
+                        <i class="fa fa-envelope"></i> info@amalco-agency.ru
+                        <br /><a href="https://wa.me/79266100426" class="text-white">Напишите нам в WhatsApp</a>
+                    </p>
+                </div>
+                <div class="col-12 w-100 text-center">
+                    <p class="text-white"><i class="fa fa-phone "></i>  <i class="fab fa-whatsapp pl-2"></i><i class="fab fa-viber pl-2"></i> <a class="phonenumber" href="tel:+74955457568" onclick="gtag('event', 'click', { 'event_category': 'form', 'event_label': 'PhoneNumber' })">+74955457568</a></p>
+                </div>
+            </div>
+            <nav class="the-nav nav-collapse clearfix">
+                <ul class="nav nav-pill ml-3 mt-2 bg-transparent">
+                    <li class="mt-5">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-item nav-link navbar-brand ml-5">
+                            <img src="~/images/logo.png" class="menulogo" />
+                        </a>
+                        <a class="nav-item nav-link text-white fontsize14 ml-5 " asp-route="ServiceIndex">Услуги и цены</a>
+                        <a class="nav-item nav-link text-white fontsize14 ml-5" asp-route="Order">Заказать домашний персонал</a>
+                        <a class="nav-item nav-link text-white fontsize14 ml-5" asp-route="Applicants">Соискателям</a>
+                        <a class="nav-item nav-link text-white fontsize14 ml-5" asp-route="About">Об агенстве</a>
+                        <a class="nav-item nav-link text-white fontsize14 ml-5" asp-route="Contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav class="navbar-expand-lg navbar-dark body-content container-fluid forbigscreenshow">
+        <div class="formlbigsc">
+
+            <div class="">
+
+                <div class="forfootermp mt_60 text-md-center">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand d-inline-block ml-lg-4 logomr pr-lg-5 mt-lg-2 mb-lg-2">
+                        <img src="~/images/logo.png" class="logo forbtnm forlogomtml ml15rem mt05rem" />
+                    </a>
+                    <p class="text-white forshowonbigscreen d-inline-block ml1_4 mr-5 headerlogo mt-2 mb-2">
+                        <i class="fa fa-envelope"></i> info@amalco-agency.ru
+                        <br /><a href="https://wa.me/+79266100426" class="text-white">Напишите нам в WhatsApp</a>
+                    </p>
+                    <p class="text-white forshowonbigscreen d-inline-block ml1_4 mr-5 headerlogo mt-2 mb-2"><i class="fa fa-phone "></i>  <i class="fab fa-whatsapp pl-2"></i><i class="fab fa-viber pl-2"></i> <a class="phonenumber" href="tel:+74955457568" onclick="gtag('event', 'PhoneNumber', { 'event_category': 'form', 'event_action': 'click' })">+74955457568</a></p>
+                  @*  <a asp-controller="Order" asp-action="Call" class="btn btn-red text-white forbuttonml mt_250  mb-2 modalform" >Заказать звонок</a>*@
+                </div>
+                <div class="pl-4">
+                    <div class="forsmmlpl">
+                        <div class="navbar-nav forsmmlpl mb-md-4 mb-mt-2">
+                            <a class="text-white fontsize14 ml-lg-1 mr-lg-5 ml-md-2 mr-md-2 ml1rem" asp-route="ServiceIndex">Услуги и цены</a>
+                            <a class="text-white fontsize14 ml-lg-5 mr-lg-5 ml-md-2 mr-md-2 mr-3" asp-route="Order">Заказать домашний персонал</a>
+                            <a class="text-white fontsize14 ml-lg-5 mr-lg-5 ml-md-2 mr-md-2 mr-3" asp-route="Applicants">Соискателям</a>
+                            <a class="text-white fontsize14 ml-lg-5 mr-lg-5 ml-md-2 mr-md-2 mr-3" asp-route="About">Об агенстве</a>
+                            <a class="text-white fontsize14 ml-lg-5 mr-lg-5 ml-md-2 mr-md-2 mr-3" asp-route="Contacts">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    @RenderSection("Header", false)
+    @*<div class="home-img-content">
+            <div class="forbgcolor">
+                <div class="container ">
+                    <div class="home-search-panel color-white">
+                        <div class="row">
+                            <div class="col-md-8 pb-2 offset-md-2">
+                                @RenderSection("SearchForm", false)
+                                @RenderSection("Company_Index", false)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+
+
+    <div>
+
+        @RenderBody()
+        <hr />
+
+    </div>
+    <div id="dialogDiv" class="modal modal-primary fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div id="dialogContent" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h3 class="modal-title text-center" id="myModalLabel"></h3>
+                    <button type="button" class="close float-right pl-0 pr-0 ml-0 mr-0" id="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-blue">
+        <div class="container">
+            <div class="row ">
+                <div class="forfootermp pt-3">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand pt-4 d-inline-blockb">
+                        <img src="~/images/logo.png" class="footerlogo ml15rem" />
+                    </a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-2 mr-2 footermenu" asp-route="ServiceIndex">Услуги и цены</a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-2 mr-2 footermenu" asp-route="Order">Заказать домашний персонал</a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-2 mr-2 footermenu" asp-route="Applicants">Соискателям</a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-2 mr-2 footermenu" asp-route="About">Об агенстве</a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-2 mr-2 footermenu" asp-route="Contacts">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="mr-lg-5 pr-lg-3 pt-3">
+            <div class="container">
+                <div class="row forfootermp">
+                    <a class="nav-item nav-link text-white fontsize14 ml-3 ml-md-0 mr-3 mt-3 d-inline-block col-lg-3 col-md-11 col-11" href="#">Кадровое агентство Амалко - подбор домашнего персонала в Москве</a>
+                    <a class="nav-item nav-link text-white fontsize14 ml-3 ml-md-0 mr-3 mt-3 d-inline-block col-lg-3 col-md-11 col-11" href="#">Россия, Московская область, Москва, Электрический переулок 3/10, строение 3, 3 подъезд  </a>
+                    <div class="col-lg-3 col-md-11 col-11">
+                        <div class="row">
+                            <p class="text-white fontsize14 d-inline-block ml-3 ml-md-0 ml-lg-3 mt-3 logomr mb-0 col-lg-12 col-md-5 col-12">
+                                <i class="fa fa-phone "></i>
+                                <a class="phonenumber" href="tel:+74955457568" onclick="gtag('event', 'click', { 'event_category': 'form', 'event_label': 'PhoneNumber' })">+74955457568</a>
+                            </p>
+                            <p class="text-white fontsize14 d-inline-block ml-3 logomr col-lg-12 col-md-6 col-12 mt-3"><i class="fa fa-envelope"></i> info@amalco-agency.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-top">
+            <div class="mlmr5 pl1rem mt-3 pb-3">
+                <div class="container">
+                    <div class="row pl-lg-5 ml-lg-2" style="line-height:50px;">
+                        <p class="col-lg-4 col-4 textCenter text-white fontsize14 d-inline-block ml-3">Copyright 2014-2018 / Амалко.</p>
+                        <div class="col-3">
+                            <iframe src="https://yandex.ru/sprav/widget/rating-badge/1374013839" width="150" height="50" frameborder="0"></iframe>
+                        </div>
+                     @*   <p class="col-lg-3 offset-lg-0 col-5 textCenter text-white fontsize14 d-inline-block">
+                            <a href="https://www.facebook.com/amalco.ru/" class="text-white"><i class="fab fa-facebook-f "></i></a>
+                            <a class="pl-3 text-white" href="https://instagram.com/nanny_agency_amalco"><i class="fab fa-instagram"></i></a>
+                        </p>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+        <script src="~/lib/popper.js/dist/popper.js"></script>
+        <script src="~/js/material-admin.min.js"></script>
+        <script src="https://cdn.usebootstrap.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="~/js/modalform.js"></script>
+        <script src="~/js/slick.min.js"></script>
+        <script src="~/js/jquery.maskedinput.js"></script>
+
+        <script src="~/js/menu.js"></script>
+        <script src="~/js/spin.min.js"></script>
+        <script src="~/js/ladda.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+        <script src="~/lib/popper.js/dist/popper.js"></script>
+        <script src="~/js/material-admin.min.js"></script>
+        <script src="https://cdn.usebootstrap.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="~/js/modalform.js"></script>
+        <script src="~/js/slick.min.js"></script>
+        <script src="~/js/jquery.maskedinput.js"></script>
+
+
+        <script src="~/js/menu.js"></script>
+        <script src="~/js/spin.min.js"></script>
+        <script src="~/js/ladda.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+
+    @await Html.PartialAsync("_Counters")
+  
+</body>
+</html>

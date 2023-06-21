@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Amalco.Data.ViewModels.Service.ServiceAdminList>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <h1 class="col-4">Список услуг</h1>
+            <div class="col-8 text-right">
+                <a asp-action="AddEdit" class="btn btn-success"> + Добавить услугу</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>
+                            <a asp-action="AddEdit" asp-route-id="@item.Id" class="pr-5">Редактировать</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="pl-5 modalform">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

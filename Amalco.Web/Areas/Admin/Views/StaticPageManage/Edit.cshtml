@@ -1,0 +1,73 @@
+﻿@model PageViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>Редактировать страницу @Model.Name</h1>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit" asp-controller="StaticPageManage" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group row m-3 border-bottom-0">
+                <label asp-for="MetaDescription" class="col-3">Мета описание</label>
+                <div class="col-7">
+                    <textarea asp-for="MetaDescription" class="for-form pt-2 pb-2 textarea-autosize" rows="5"></textarea>
+                    <i class="form-group__bar"></i>
+                </div>
+            </div>
+            <div class="form-group row m-3 border-bottom-0">
+                <label asp-for="PageTitle" class="col-3">Заголовок страницы</label>
+                <div class="col-7">
+                    <textarea asp-for="PageTitle" class="for-form pt-2 pb-2 textarea-autosize" rows="5"></textarea>
+                    <i class="form-group__bar"></i>
+                </div>
+            </div>
+            <div class="form-group row m-3 border-bottom-0">
+                <label class="col-3"></label>
+                <div class="col-4">
+                    <input type="hidden" id="imageUploadForm" />
+                    <input type="file" name="MainImageFile" id="imageUploadForm" />
+                </div>
+                <div class="col-3">
+                    <select id="imgcss" class="for-form pt-3 pb-3">
+                        <option value="float:left;margin:10px 10px 10px 0;" selected>Слева</option>
+                        <option value="float:right;margin:10px 0 10px 10px;">Справа</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row m-3 border-bottom-0">
+                <label asp-for="Content" class="col-3">Контент</label>
+                <div class="col-7">
+                    <textarea asp-for="Content" class="for-form pt-2 pb-2  tiny w-100"></textarea>
+                    <i class="form-group__bar"></i>
+                </div>
+            </div>
+            <div class="form-group row m-3 border-bottom-0">
+                <label asp-for="Content2" class="col-3">Контент-2</label>
+                <div class="col-7">
+                    <textarea asp-for="Content2" class="for-form pt-2 pb-2 textarea-autosize tiny" rows="5"></textarea>
+                    <i class="form-group__bar"></i>
+                </div>
+            </div>
+
+
+            @*<label asp-for="MetaDescription">Мета описание</label>
+        <textarea asp-for="MetaDescription"></textarea>
+            <label asp-for="PageTitle">Заголовок страницы</label>
+            <textarea asp-for="PageTitle"></textarea>
+            <label asp-for="Content">Контент</label>
+            <textarea asp-for="Content" class="tiny"></textarea>
+            <label asp-for="Content2">Контент-2</label>
+            <textarea asp-for="Content2" class="tiny"></textarea>
+            <input type="file" id="imageUploadForm" />
+            <select id="imgcss">
+                <option value="float:left;margin:10px 10px 10px 0;" selected>Слева</option>
+                <option value="float:right;margin:10px 0 10px 10px;">Справа</option>
+            </select>*@
+            <input type="submit" value="Обновить" class="mt-3 btn btn-success float-right" />
+        </form>
+    </div>
+</div>

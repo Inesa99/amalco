@@ -1,0 +1,24 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="row width100">
+    <div class="offset-md-2 col-md-3 offset-1 mt-3">
+        <a href="/">Главная </a>/ Страница не найдена
+      
+    </div>
+</div>
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+       <span class="text-danger fontsize25">
+           Страница не найдена
+       </span>
+        
+
+
+    </div>
+</div>

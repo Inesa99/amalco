@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ServiceListVM>
+
+<div class="offset-lg-2 col-lg-8 col-md-11 offset-1 col-10 mt-3">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 col-lg-3 offset-1 col-11 mb-5 pl-0 pr-0  mr-0 w-100">
+                <div class="container middlemenuelement ml05rem">
+                    <a href="/@item.Url">
+                        <img class="width100 position-relative" src="~/images/Services/@item.MainImage" />
+                        <div class="content position-absolute">
+                            <h6 class="text-white mb-0 ml-1 mr-1 mb-2">@item.Title</h6>
+                            <small class="text-white mb-0 ml-1 mr-1 middleborderd pl-3 pr-3 pb-1 pt-1">от @item.Price @item.DisplayPayType</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        }
+
+    </div>
+
+
+</div>

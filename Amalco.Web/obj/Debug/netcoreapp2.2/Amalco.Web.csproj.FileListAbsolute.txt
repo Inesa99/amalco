@@ -1,0 +1,219 @@
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.deps.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.input.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.output.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Index\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Menu.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Navigation.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Edit.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\SiteMap.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Call.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Page.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Philipins.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Article.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_Menu\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ReviewList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ServiceList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Advantages.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Counters.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Order.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_OrderCall.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_VacancyResponse.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\About.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Applicants.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Contacts.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Prices.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\_VacancyDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CopyComplete
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.genruntimeconfig.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.deps.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfo.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.input.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.output.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Index\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Menu.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Navigation.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Edit.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\SiteMap.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Call.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Page.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Philipins.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Article.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_Menu\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ReviewList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ServiceList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Advantages.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Counters.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Order.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_OrderCall.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_VacancyResponse.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\About.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Applicants.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Contacts.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Prices.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\_VacancyDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CopyComplete
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.genruntimeconfig.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.deps.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\bin\Debug\netcoreapp2.2\Amalco.Data.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.input.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.TagHelpers.output.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Index\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\InvoiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ReviewManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ServiceManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Menu.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Navigation.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Edit.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\StaticPageManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\AddEdit.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\VacancyManage\_Delete.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\SiteMap.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Call.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Page.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Service\Philipins.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Article.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_Menu\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ReviewList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\_ServiceList\Default.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Advantages.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Counters.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Order.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_OrderCall.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_VacancyResponse.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\About.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Applicants.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Contacts.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\Prices.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\StaticPage\_VacancyDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.Views.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.csproj.CopyComplete
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Web\obj\Debug\netcoreapp2.2\Amalco.Web.genruntimeconfig.cache

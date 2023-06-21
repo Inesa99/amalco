@@ -1,0 +1,114 @@
+﻿@model ServiceFullView
+@{
+    ViewData["Title"] = Model.PageTitle;
+    ViewData["Description"] = Model.MetaDescription;
+    IEnumerable<ProfileViewModel> profiles = ViewBag.profiles;
+
+}
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-10 offset-1 mt-5 mt-md-2">
+        <a href="/">Главная</a> / <a asp-route="ServiceIndex">Услуги</a> / @Model.Name
+    </div>
+</div>
+
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+        <h3 class="text-center text-blue menuhead forsmpl">@Model.HeaderTitle</h3>
+        <div class="row">
+            <div class="col-lg-4 col-md-10 col-12">
+                <img src="~/images/Services/@Model.MainImage" class="width100 forsmpl" />
+            </div>
+            <div class="col-lg-7 col-md-10 offset-1 col-11">
+                <p class="text-blue mb-0 mb-3">@Model.ResponsibilityTitle:</p>
+                @foreach (var item in Model.ResponsibilityList)
+                {
+                    <p class="mb-0 fontsize14"><i class="fa fa-check mr-2 text-danger"></i>@item</p>
+                }
+                <p class="mb-0 fontsize14 mt-3 mb-2">@Model.PriceTitle :   </p>
+                <p class="mb-0  price text-blue"><b>От @Model.Price рублей / @Model.DisplayPayType</b> </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="servicedetailsmiddle mt-5 width100">
+    <div class="esim">
+        <div class="row pt-5 pb-5 width100">
+            <div class="col-md-12 w-100 col-12 pr-0 ml-md-0 ml-2">
+                <h3 class="text-white text-center ">Оставьте заявку и наши менеджеры свяжутся</br> с  Вами в ближайшее время</h3>
+            </div>
+            <div class="offset-md-4 col-md-4 col-12 text-center align-items-center pl-md-0 ">
+                <form method="post" class="ml-3" onsubmit="gtag('event', 'send', { 'event_category': 'form', 'event_label': 'request' })">
+                    <input type="hidden" name="ServiceId" value="@Model.Id" />
+                    <input class="col-md-10 col-12 withradius m-2" placeholder="Ваше имя" name="Name" required />
+                    <input class="col-md-10 col-12 withradius m-2" placeholder="Ваш номер телефон" name="PhoneNumber" required />
+                    @*<input class="col-md-10 col-12 withradius m-2" placeholder="Ваш Email" name="Email" required />*@
+                    <textarea rows="5" placeholder="Ваш комментарий" class="col-md-10 col-12 withradius m-2" name="Comment"></textarea>
+                    <button class="col-lg-4 col-md-10 col-12 btn btn-red text-white mt-2  forbtnm" type="submit">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@if (profiles.Any())
+{
+    <div class="container">
+        <div class="row mt-5 ">
+            <h4 class="text-blue col-md-12 text-center mb-5">Анкеты соискателей</h4>
+        </div>
+        @foreach (var item in profiles)
+        {
+            <div class="row mb-3 border-bottom pb-3">
+                <div class="col-md-2 col-4">
+                    <img src="http://profiles.amalco.ru/images/@item.Image" class="w-100" />
+                </div>
+                <div class="col-md-10 col-8 text-justify">
+                     № @item.Id <br/>
+                    <h5 class="text-blue">@item.FirstNae</h5>
+
+                    <p class="fontsize11 pb-1">
+                        @item.Text
+                    </p>
+                    
+                    <p class="fontsize10">Опыт работы: @item.Expirence</p>
+                    <a href="http://profiles.amalco.ru/profile/@ViewBag.url/@item.Id" class="border-bottom fontsize10 text-black" target="_blank">Посмотреть анкету</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@await Component.InvokeAsync("_ReviewList")
+
+<div class="container">
+    <div class="row mt-5 mb-5 w-100">
+        <div class="offset-lg-1 col-lg-10 offset-md-1 col-md-10 offset-1 col-11 mb-3 mt-5">
+            <div class="forbigml forimg ">
+                @Html.Raw(Model.Content)
+            </div>
+        </div>
+    </div>
+</div>
+<div class="servicedetailsmiddle mt-5 width100">
+    <div class="esim">
+        <div class="row pt-5 pb-5 width100">
+            <div class="col-md-12 w-100 col-12 pr-0 ml-md-0 ml-2">
+                <h3 class="text-white text-center ">Оставьте заявку и наши менеджеры свяжутся</br> с  Вами в ближайшее время</h3>
+            </div>
+            <div class="offset-md-4 col-md-4 col-12 text-center align-items-center pl-md-0 ">
+                <form method="post" class="ml-3" onsubmit="gtag('event', 'send', { 'event_category': 'form', 'event_label': 'request' })">
+                    <input type="hidden" name="ServiceId" value="@Model.Id" />
+                    <input class="col-md-10 col-12 withradius m-2" placeholder="Ваше имя" name="Name" required />
+                    <input class="col-md-10 col-12 withradius m-2" placeholder="Ваш номер телефон" name="PhoneNumber" required />
+                    @*<input class="col-md-10 col-12 withradius m-2" placeholder="Ваш Email" name="Email" required />*@
+                    <textarea rows="5" placeholder="Ваш комментарий" class="col-md-10 col-12 withradius m-2" name="Comment"></textarea>
+                    <button class="col-lg-4 col-md-10 col-12 btn btn-red text-white mt-2  forbtnm" type="submit">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

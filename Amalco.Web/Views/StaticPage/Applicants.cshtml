@@ -1,0 +1,150 @@
+﻿@model PageViewModel
+@using Amalco.Data.Helpers
+@{
+    ViewData["Title"] = Model.PageTitle;
+    ViewData["Description"] = Model.MetaDescription;
+}
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 offset-1 mt-5 mt-md-2">
+        <small class="mt-3">Главная / Соискателям</small>
+    </div>
+</div>
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+        <h3 class="text-center text-blue menuhead forsmpl blue-text">Вакансии на домашний персонал в Москве. Работа для соискателей</h3>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-0 col-md-10 offset-1 col-11">
+                <form method="post" asp-controller="Order" asp-action="Add">
+                    <input type="text" placeholder="Ваше имя" class="w-100 pl-2 mb-2 form-control forbigml" name="Naame" />
+                    <input type="text" placeholder="Ваш номер телефона" class="w-100 pl-2 mb-2 form-control forbigml" name="PhoneNumber" />
+                    <input type="text" placeholder="Ваш Email" class="w-100 pl-2 mb-2 form-control forbigml" name="Email" />
+                    <textarea rows="5" placeholder="Ваш комментарий" class="w-100 pl-2 mb-2 form-control forbigml" name="Comment"></textarea>
+                    <button class="w-100 pl-2 mb-2 form-control btn btn-red text-white forbigml" type="submit">Оформить заявку</button>
+                </form>
+                @*<a href="#" class="ml-5 text-black fontsize10 ml-4 privacy">Политики конфиденциальности</a>*@
+            </div>
+            <div class="offset-lg-1 col-lg-5 col-md-10 offset-1 col-11">
+                <p class="">
+                    Требуется весь домашний персонал Граждане РФ, Белоруссии и Украины.
+                    <br /> Свободное владение русским языком.
+                </p>
+                <p class="">
+                    По вопросам трудоустройства звонить по телефонам
+                     <br />+79266025430 <br />+79266100426 <br />+79269022353
+                </p>
+                <p class="mt-5">
+                    Анкетирование бесплатное
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="offset-lg-2 col-lg-8 offset-1 col-11">
+        <p class="text-justify fontsize14 mt-1">
+            @Html.Raw(Model.Content)
+        </p>
+    </div>
+    <h3 class="col-md-12 text-center blue-text mt-5 mb-5">Актуальные вакансии</h3>
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 offset-1 col-11 mb-3">
+        <div class="row">
+            @foreach(VacancyVM item in ViewBag.vacancies)
+            {
+                <div class="col-sm-12 col-md-6 mb-2">
+                    <div class="row">
+                        <div class="col-11 v-item">
+                            <span>
+                                @item.Title
+                                @if(item.Salary>0 && !item.SalaryDo.HasValue)
+                                {
+                                    <br /> @:Зарплата @item.Salary руб. / @item.ServicePayType.DisplayName()
+                                }
+                                @if (item.Salary > 0 && item.SalaryDo.HasValue)
+                                {
+                                    <br /> @:Зарплата от @item.Salary руб. до @item.SalaryDo / @item.ServicePayType.DisplayName()
+                                }
+                            </span>
+                           
+                            <a asp-action="VacancyDetail" asp-route-id="@item.Id" class="btn btn-red text-white v-apply">Посмотреть</a>
+                        </div>
+                    </div>
+                  
+                </div>
+            }
+            @*<div class="col-lg-2 col-md-4 col-12 text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Services/Icons/010-mother-and-baby.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Няня грудничку</p>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12 text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Services/Icons/003-maid.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center ">Домработница</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12 text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Services/Icons/004-hotel-maid.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Гувернантка</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12 text-center">
+                <div class="row">
+                    <div class=" col-12 text-center">
+                        <img src="~/images/Services/Icons/012-teacher.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Репетитор</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12  text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Services/Icons/001-driver-1.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Водитель</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12 text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="~/images/Services/Icons/009-couple.png" class="appIcon" />
+                    </div>
+                    <p class="fontsize11 mt-2 col-12 text-center">Семейная пара</p>
+                </div>
+            </div>*@
+        </div>
+
+
+        <div class="forbigml forimg">
+            @Html.Raw(Model.Content2)
+
+        </div>
+        @*<div class="row">
+                <div class="offset-md-2 col-md-8 mt-3  offset-1 col-11">
+                    <div class="forbigml">
+                        @Html.Raw(Model.Content2)
+
+                    </div>
+                </div>
+                 @Html.Raw(Model.Content2)
+            </div>*@
+    </div>
+</div>
+
+@if(ViewBag.fromresponse!=null)
+{
+    @section Scripts{ 
+      <script>
+          DisplayThankYou();
+      </script>
+    }
+}

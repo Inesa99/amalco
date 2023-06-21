@@ -1,0 +1,30 @@
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.deps.json
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.pdb
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\Новая папка\Amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.deps.json
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.pdb
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\amalco git\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.deps.json
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\bin\Debug\netcoreapp2.1\Amalco.Data.pdb
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.dll
+C:\Users\Admin\Desktop\GIT\amalco\Amalco.Data\obj\Debug\netcoreapp2.1\Amalco.Data.pdb

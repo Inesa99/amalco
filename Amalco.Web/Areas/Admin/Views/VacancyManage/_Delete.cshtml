@@ -1,0 +1,21 @@
+﻿@model VacancyVM
+<div class="modal-content">
+    <div class="modal-header">
+        <h3 class="modal-title" id="myModalLabel">Удалить</h3>
+        <button type="button" class="close float-right pl-0 pr-0 ml-0 mr-0" id="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+    </div>
+    <form asp-controller="VacancyManage" asp-action="DeleteVacancy" method="post" id="createForm">
+        <div class="modal-body">
+            <div class="form-horizontal">
+                <input type="hidden" asp-for="@Model.Id" />
+                <p>Вы уверены, что хотите удалить <b>@Model.Title</b> из Вакансий?</p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-danger" id="btnSave">Удалить</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal" id="cancel">Отменить</button>
+        </div>
+    </form>
+
+</div>

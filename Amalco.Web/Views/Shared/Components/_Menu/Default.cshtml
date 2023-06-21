@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MenuListVM>
+<div class="_menu">
+    @foreach (var item in Model)
+    {
+        <div class="borderblue mb-2 menu-item">
+            <div class="mt-2 mb-2">
+                @*<img src="~/images/Icons/mother.png" class="ml-2 mt-1 smallicons" />*@
+                <span class="pt-3 pl-2">@item.Title</span>
+                <img src="~/images/Icons/down-arrow.png" class="float-right mt2_5 mr-2" />
+                <div class="childs mt-2 mb-2">
+                    @foreach (var child in item.ChildMenues)
+                    {
+                        <div class="borderblue mb-2 mt-2">
+                            <div class="mt-2 mb-2 pl-4">
+
+                                <a href="/@child.Url">@*<img src="~/images/Icons/mother.png" class="mr-2 mt-1 smallicons" />*@@child.Title</a>
+
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    <ul class="mini-menu">
+        <li>
+            <a href="/pomosch-pri-vybore">Помощь при выборе</a>
+        </li>
+        <li>
+            <a href="/metodi-podbora">Методы подбора</a>
+        </li>
+        <li><a href="/nashi-filialy">Наши филиалы</a></li>
+    </ul>
+    <div class="ind">
+        <img src="~/images/Main/flag_indonezia.jpg" />
+        <span>Персонал из Индонезии от 40 000 рублей!</span>
+    </div>
+    <div class="sh mt-3">
+        <img src="~/images/Main/flag_shrilanka.jpg">
+        <span>Персонал из Шри-Ланки от 35000 рублей!</span>
+    </div>
+</div>
+
+
+

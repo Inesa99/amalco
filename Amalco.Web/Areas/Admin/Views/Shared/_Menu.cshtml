@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "_Menu";
+}
+<aside class="sidebar toggled">
+    <div class="scrollbar-inner" style="position: relative;">
+        <div class="scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 614.5px;">
+            <ul class="navigation">
+                @*<li>
+            <a href="@Url.Action("Index","Home")">
+                <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i>Dashboard
+            </a>
+        </li>*@
+                <li>
+                    <a asp-controller="ServiceManage" asp-action="Index"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>Услуги</a>
+                </li>
+                <li>
+                    <a asp-controller="StaticPageManage" asp-action="Index"><i class="zmdi zmdi-accounts zmdi-hc-fw"></i>Страницы</a>
+                </li>
+                <li>
+                    <a asp-controller="VacancyManage" asp-action="Index"><i class="zmdi zmdi-card zmdi-hc-fw"></i>Вакансии</a>
+                </li>
+                <li>
+                    <a asp-controller="ReviewManage" asp-action="Index"><i class="zmdi zmdi-accounts zmdi-hc-fw"></i>Отзывы</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</aside>

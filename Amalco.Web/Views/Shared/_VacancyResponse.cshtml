@@ -1,0 +1,12 @@
+﻿@model VacancyResponseModel
+
+<h3>@Model.Date получен новый отклик на вакансию <b>@Model.VacancyName</b></h3>
+<hr />
+От:
+<br />@Model.FullName 
+<br /> Тел: @Model.PhoneNumber
+<br />Опыт работы в семьях : @(Model.FamilyExperience?"Да":"Нет")
+@if(Model.HasCv)
+{
+    <br /> @: Кандидат прикрепил резюме
+}

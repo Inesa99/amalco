@@ -1,0 +1,151 @@
+﻿@model PageViewModel
+@{
+    ViewData["Title"] = Model.PageTitle;
+    ViewData["Description"] = Model.MetaDescription;
+}
+<div class="row width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10  offset-1 mt-5 mt-md-2">
+        <small class="mt-3">Главная / Услуги и цены</small>
+    </div>
+</div>
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-3 offset-md-1 col-md-4 offset-1">
+        @await Component.InvokeAsync("_Menu")
+    </div>
+    <div class="col-lg-5 offset-lg-0 col-md-6  offset-1 col-11">
+        @Html.Raw(Model.Content)
+         
+    </div>
+    
+    <h3 class="col-md-12 text-center blue-text mb-5 col-12 mt-5">Наши цены</h3>
+    @await Component.InvokeAsync("_ServiceList")
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 mt-5 offset-1 pl-md-5">
+        <div class="forbigml">
+            @Html.Raw(Model.Content2)
+
+        </div>
+    </div>
+</div>
+<div class="servicemiddle width100">
+    <div class="mainheaderhover">
+        <div class="row pt-5 pb-5 width100">
+            <div class="offset-md-4 col-md-5 offset-1 col-11 pt-4 pb-4">
+                <div class="ml05rem">
+                    @await Html.PartialAsync("_Order")
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5 width100">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 mt-5 offset-1 pl-md-5">
+        <h3 class="text-blue text-center col-12  forbigml mb-5">Мы предоставляем услуги по подбору кандидатов по следующим вакансиям:</h3>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/010-mother-and-baby.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Няня</h6>
+                <p class="fontsize14">Любовь к детям главный определитель хорошей няни.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/003-maid.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Домработница</h6>
+                <p class="fontsize14">Верная помощница, умеющая грамотно вести домашнее хозяйство</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/004-hotel-maid.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Гувернантка</h6>
+                <p class="fontsize14">Квалифицированный специалист с высшим образованием, в совершенстве знающий методики детского воспитания и базисы детской психологии и сможет приготовить ребёнка к любому учебному заведению.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/012-teacher.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Репетитор</h6>
+                <p class="fontsize14">Преподаватель, дающий индивидуальные уроки на дому. Он проводит индивидуальные и групповые уроки. Помощь репетиров в основном пользуются абитуриенты - школьники, которые готовятся пойти в вуз.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/001-driver-1.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Водитель</h6>
+                <p class="fontsize14">Незаменимый помощник в решении многих вопросов. Он отвезёт вас в определённое место: в офис, домой, на деловую встречу. Вам больше не грозят опоздания на работу или на деловые встречи, поскольку водитель выберет максимально удобный маршрут, чтобы избежать пробок. Вы не будете тревожиться о том, как доедут до школы дети, кто встретить родителей из аэропорта или отвезёт вашу жену по магазинам.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/doctor.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Сиделка</h6>
+                <p class="fontsize14">
+                    Исполняет безупречный присмотр больными и пожилыми людьми. Она создаст удобные условия для проживания и предоставит психологическую поддержку.
+                </p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/006-waiter.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Повар</h6>
+                <p class="fontsize14">
+                    Личность, значительно облегчающий вашу жизнь и балующий вас вкусной, здоровой пищей. Он составляет специальное меню, в котором учтены предпочтения работодателей. Провожает вас в офис с вкусным завтраком и встречает аппетитным ужином.
+                </p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/007-maids.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Филиппинский персонал</h6>
+                <p class="fontsize14">
+                    Удивительно работоспособный и устойчивый, предупредительный любезный и добросердечный в отношении к работодателям.
+                </p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/009-couple.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Семейная пара</h6>
+                <p class="fontsize14">Надёжные и ответственные люди, которые решат большинство ваших проблем. Они предоставят максимальное число услуг за умеренную заработную плату. С их помощью ваше жильё в безупречном состоянии будет ожидать вас.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/008-bell-boy.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Управляющий загородным домом</h6>
+                <p class="fontsize14">Любовь к детям главный определитель хорошей няни.</p>
+            </div>
+        </div>
+        <div class="row border mt-2 forbigml">
+            <div class="col-md-1 col-2">
+                <img src="~/images/Services/Icons/001-farmer.png" class="mt-3" />
+            </div>
+            <div class="col-md-11 col-10">
+                <h6 class="text-blue mt-2">Садовник</h6>
+                <p class="fontsize14">Мастер по уходу за садом и другим садовыми насаждениями.</p>
+            </div>
+        </div>
+    </div>
+</div>
